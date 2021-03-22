@@ -10,10 +10,7 @@ window.onload = function () {
     fourPM();
     fivePM();
 }
-
-
-
-//Current Day is displaye at the top of the calendar 
+//Current Day is displayed at the top of the calendar 
 var currentDay = moment();
 $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY"));
 
